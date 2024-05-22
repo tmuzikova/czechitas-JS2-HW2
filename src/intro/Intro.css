@@ -1,0 +1,16 @@
+.intro {
+  width: 50%;
+}
+
+.intro h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: black;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  line-height: 150%;
+}
