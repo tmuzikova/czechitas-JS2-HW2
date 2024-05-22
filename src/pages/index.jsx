@@ -4,6 +4,7 @@ import "./index.css";
 import { Header } from "../header/Header";
 import { Intro } from "../intro/Intro";
 import { Pose } from "../pose/Pose";
+import pose from "../img/yoga-pose.jpg";
 
 const headerTitle = "Jogíni";
 const intro = {
@@ -14,7 +15,6 @@ const intro = {
          sobě i ostatním. Krok za krokem objevíte a dostanete pod kontrolu
          svoje tělo, pocity a emoce.`,
 };
-const poseImgSrc = "./yoga-pose.jpg";
 
 document.querySelector("#root").innerHTML = render(
   <div className="container">
@@ -22,8 +22,7 @@ document.querySelector("#root").innerHTML = render(
 
     <div className="introWithImg">
       <Intro heading={intro.heading} text={intro.text} />
-
-      <Pose src={poseImgSrc} />
+      <Pose src={pose} />
     </div>
   </div>
 );
